@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import Features from "@/components/features";
 import Pricing from "@/components/pricing";
 import ComingSoon from "@/components/cooming-soon";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
@@ -78,6 +79,11 @@ export default function Home() {
       {/* COMING SOON SECTION */}
       <section className="border-t border-border/40">
         <ComingSoon />
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="border-t border-border/40">
+        <Newsletter />
       </section>
 
     </div>
