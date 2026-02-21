@@ -56,6 +56,10 @@ body {
   color: hsl(var(--foreground));
 }
 
+.font-dm-serif {
+  font-family: var(--font-dm-serif-text), serif;
+}
+
 [data-theme='dark'] {
   --primary-color: #3B82F6;      
   --secondary-color: #1E293B;    

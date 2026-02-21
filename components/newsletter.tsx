@@ -17,7 +17,7 @@ export default function Newsletter() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-dm-serif">
             Stay in the loop
           </h2>
 

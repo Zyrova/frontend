@@ -15,8 +15,8 @@ export default function Features() {
 
         {/* Heading */}
         <div className="mb-20 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Everything you need to grow
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl" >
+            <span style={{ fontFamily: 'var(--font-dm-serif-text)' }}>Everything</span> you need to grow
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-white/80 text-lg">
             Zyrova gives you the tools, speed, and reliability to build and scale

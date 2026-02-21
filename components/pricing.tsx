@@ -11,8 +11,8 @@ export default function Pricing() {
 
         {/* Heading */}
         <div className="mb-20 text-center">
-          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            Simple, transparent pricing
+          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl font-dm-serif">
+            <span style={{ fontFamily: 'var(--font-dm-serif-text)' }} className="italic">Simple</span>, transparent pricing
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto text-lg">
             Choose the perfect plan for your business. Upgrade anytime as you grow.

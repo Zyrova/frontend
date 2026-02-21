@@ -17,8 +17,8 @@ export default function ComingSoon() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            More features coming soon
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-dm-serif">
+            More features <span style={{ fontFamily: 'var(--font-dm-serif-text)' }} className="italic">coming soon</span>
           </h2>
 
           <p className="mt-4 max-w-2xl mx-auto text-white/80 text-lg">

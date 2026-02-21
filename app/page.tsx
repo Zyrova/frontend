@@ -5,6 +5,7 @@ import Features from "@/components/features";
 import Pricing from "@/components/pricing";
 import ComingSoon from "@/components/cooming-soon";
 import Newsletter from "@/components/newsletter";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
 
           <div className="space-y-6">
 
-            <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
+            <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl font-dm-serif">
               Good start to a{" "}
               <span className="bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent">
                 good idea
@@ -85,6 +86,11 @@ export default function Home() {
       <section className="border-t border-border/40">
         <Newsletter />
       </section>
+
+      {/* FOOTER */}
+      <footer>
+        <Footer />
+      </footer>
 
     </div>
   );

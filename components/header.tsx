@@ -15,7 +15,7 @@ export default function Header() {
           <Image src="/logo.png" alt="Zyrova" width={32} height={32} className="mr-2" />
           <Link
             href="/"
-            className="text-lg font-bold tracking-tight transition-opacity hover:opacity-70"
+            className="text-lg font-bold tracking-tight transition-opacity hover:opacity-70 font-dm-serif"
           >
             Zyrova
           </Link>
