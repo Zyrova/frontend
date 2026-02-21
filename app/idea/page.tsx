@@ -28,9 +28,9 @@ export default function IdeaPage() {
         
         <p className="text-xl text-gray-600 leading-relaxed max-w-6xl text-justify">
           Zyrova was born from a simple yet powerful vision: to democratize digital creation and make sophisticated technology accessible to everyone. 
-          We believe that great ideas shouldn't be limited by technical barriers, expensive tools, or complex platforms. 
+          We believe that great ideas shouldn&apos;t be limited by technical barriers, expensive tools, or complex platforms. 
           Our mission is to provide an intuitive ecosystem where creators, entrepreneurs, and businesses can transform their visions 
-          into reality without compromise. We're building more than just a platform—we're creating a movement where innovation 
+          into reality without compromise. We&apos;re building more than just a platform—we&apos;re creating a movement where innovation 
           meets simplicity, where ambition meets accessibility, and where every idea has the potential to become extraordinary. 
           Zyrova is the bridge between imagination and implementation, designed for those who dare to dream and determined to build.
         </p>

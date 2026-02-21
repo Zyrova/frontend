@@ -22,7 +22,7 @@ export default function ComingSoon() {
           </h2>
 
           <p className="mt-4 max-w-2xl mx-auto text-white/80 text-lg">
-            We're constantly improving Zyrova. New powerful tools and
+            We&apos;re constantly improving Zyrova. New powerful tools and
             integrations are on the way to help you grow faster.
           </p>
         </div>

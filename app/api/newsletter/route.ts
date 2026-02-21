@@ -19,12 +19,12 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ success: true });
 
-  } catch (error: any) {
+  } catch (error) {
 
     console.error("MYSQL ERROR:", error);
 
     return NextResponse.json(
-      { error: error.message },
+      { error: (error as Error).message },
       { status: 500 }
     );
   }

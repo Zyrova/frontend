@@ -18,7 +18,7 @@ export default function TermsPage() {
               Terms of Service
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              These terms govern your use of Zyrova's services and create a legal agreement between you and Zyrova.
+              These terms govern your use of Zyrova&apos;s services and create a legal agreement between you and Zyrova.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Acceptance of Terms</h2>
               <p className="text-gray-600 leading-relaxed">
-                By accessing and using Zyrova's services, you accept and agree to be bound by the terms 
+                By accessing and using Zyrova&apos;s services, you accept and agree to be bound by the terms 
                 and provision of this agreement. If you do not agree to abide by the terms of this agreement, 
                 you are not authorized to use or access our services.
               </p>
@@ -114,7 +114,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Intellectual Property</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Zyrova's Rights</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Zyrova&apos;s Rights</h3>
                   <p className="text-gray-600 leading-relaxed">
                     The service and its original content, features, and functionality are owned by Zyrova and 
                     are protected by international copyright, trademark, and other intellectual property laws.

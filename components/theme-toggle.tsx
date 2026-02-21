@@ -9,7 +9,9 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    // Use setTimeout to avoid calling setState synchronously in effect
+    const timeoutId = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timeoutId);
   }, []);
 
   if (!mounted) {
