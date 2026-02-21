@@ -46,7 +46,7 @@ export default function Home() {
                 className="px-8 transition-all duration-200 hover:scale-[1.03]"
                 asChild
               >
-                <Link href="/get-started">
+                <Link href="/login">
                   Get Started
                 </Link>
               </Button>
@@ -57,8 +57,8 @@ export default function Home() {
                 className="px-8 transition-all duration-200 hover:scale-[1.03]"
                 asChild
               >
-                <Link href="/learn-more">
-                  Learn More
+                <Link href="/idea">
+                  The Idea
                 </Link>
               </Button>
             </div>
