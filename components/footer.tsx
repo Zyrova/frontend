@@ -71,10 +71,10 @@ export default function Footer() {
             <h3 className="text-sm font-semibold">Legal</h3>
 
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-              <Link href="#" className="hover:text-foreground transition-colors">
+              <Link href="/privacy" className="hover:text-foreground transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="#" className="hover:text-foreground transition-colors">
+              <Link href="/terms" className="hover:text-foreground transition-colors">
                 Terms of Service
               </Link>
               <Link href="#" className="hover:text-foreground transition-colors">

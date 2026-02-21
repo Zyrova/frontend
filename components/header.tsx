@@ -24,28 +24,28 @@ export default function Header() {
         {/* Navigation */}
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <Link
-            href="#features"
+            href="/#features"
             className="transition-colors hover:text-foreground"
           >
             Features
           </Link>
 
           <Link
-            href="#pricing"
+            href="/#pricing"
             className="transition-colors hover:text-foreground"
           >
             Pricing
           </Link>
 
           <Link
-            href="#coming-soon"
+            href="/#coming-soon"
             className="transition-colors hover:text-foreground"
           >
             Coming Soon
           </Link>
 
           <Link
-            href="#newsletter"
+            href="/#newsletter"
             className="transition-colors hover:text-foreground"
           >
             Newsletter
