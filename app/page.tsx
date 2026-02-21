@@ -68,22 +68,22 @@ export default function Home() {
       </section>
 
       {/* FEATURES SECTION */}
-      <section className="border-t border-border/40">
+      <section id="features" className="border-t border-border/40">
         <Features />
       </section>
 
       {/* PRICING SECTION */}
-      <section className="border-t border-border/40">
+      <section id="pricing" className="border-t border-border/40">
         <Pricing />
       </section>
 
       {/* COMING SOON SECTION */}
-      <section className="border-t border-border/40">
+      <section id="coming-soon" className="border-t border-border/40">
         <ComingSoon />
       </section>
 
       {/* NEWSLETTER */}
-      <section className="border-t border-border/40">
+      <section id="newsletter" className="border-t border-border/40">
         <Newsletter />
       </section>
 

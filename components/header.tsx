@@ -24,31 +24,31 @@ export default function Header() {
         {/* Navigation */}
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <Link
-            href="/features"
+            href="#features"
             className="transition-colors hover:text-foreground"
           >
             Features
           </Link>
 
           <Link
-            href="/pricing"
+            href="#pricing"
             className="transition-colors hover:text-foreground"
           >
             Pricing
           </Link>
 
           <Link
-            href="/about"
+            href="#coming-soon"
             className="transition-colors hover:text-foreground"
           >
-            About
+            Coming Soon
           </Link>
 
           <Link
-            href="/contact"
+            href="#newsletter"
             className="transition-colors hover:text-foreground"
           >
-            Contact
+            Newsletter
           </Link>
         </nav>
 
@@ -58,7 +58,7 @@ export default function Header() {
           {/* <ThemeToggle /> */}
 
           <Button size="sm" asChild>
-            <Link href="/get-started">
+            <Link href="#newsletter">
               Get Started
             </Link>
           </Button>
